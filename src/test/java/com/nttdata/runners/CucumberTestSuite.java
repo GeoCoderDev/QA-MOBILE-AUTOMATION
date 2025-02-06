@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources",
-        glue = "com.qamobile",
+        glue = "com.nttdata",
         tags = "@CarritoCompras"
 )
 public class CucumberTestSuite {
